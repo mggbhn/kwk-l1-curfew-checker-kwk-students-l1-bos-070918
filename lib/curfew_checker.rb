@@ -1,5 +1,5 @@
-def simple_curfew_checker(time.gets)
-  if "#{time}" >= 11
+def simple_curfew_checker(time)
+  if "#{time}".int >= 11
     puts "You're in trouble"
   end
 end
